@@ -1,0 +1,34 @@
+{
+  "version": "1.0.0",
+  "name": "Geo Weather",
+  "description": "An app to get weather data of user's current location",
+  "type": "web",
+  "launch_path": "/index.html",
+  "icons": {
+    "56": "/icon/icon_56.png",
+    "112": "/icon/icon_112.png"
+  },
+  "developer": {
+    "name": "Aditya Priyam",
+    "url": ""
+  },
+  "locales": {
+    "en-US": {
+      "name": "Geo Weather",
+      "subtitle": "Weather for you",
+      "description": "App to get weather data at user's location"
+    }
+  },
+  "default_locale": "en-US",
+  "permissions": {
+    "desktop-notification": {
+      "description": "To show notifications"
+    },
+    "geolocation": {
+      "description": "Marking out user location"
+    },
+    "alarms": {
+      "description": "Scheduling alarms"
+    }
+  }
+}
